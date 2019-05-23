@@ -10,6 +10,8 @@
 		5566DAA12296DDFE00BFBDB9 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5566DAA02296DDFE00BFBDB9 /* Dog.swift */; };
 		5566DAA32296DFDB00BFBDB9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5566DAA22296DFDB00BFBDB9 /* Person.swift */; };
 		5566DAA52296FA6700BFBDB9 /* AddPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5566DAA42296FA6700BFBDB9 /* AddPersonViewController.swift */; };
+		5566DAA7229714C200BFBDB9 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5566DAA6229714C200BFBDB9 /* PersonViewController.swift */; };
+		5566DAA922971B8B00BFBDB9 /* AddDogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5566DAA822971B8B00BFBDB9 /* AddDogViewController.swift */; };
 		55B572702296DB0F0061C939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B5726F2296DB0F0061C939 /* AppDelegate.swift */; };
 		55B572722296DB0F0061C939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B572712296DB0F0061C939 /* ViewController.swift */; };
 		55B572752296DB0F0061C939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B572732296DB0F0061C939 /* Main.storyboard */; };
@@ -22,6 +24,8 @@
 		5566DAA02296DDFE00BFBDB9 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		5566DAA22296DFDB00BFBDB9 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5566DAA42296FA6700BFBDB9 /* AddPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonViewController.swift; sourceTree = "<group>"; };
+		5566DAA6229714C200BFBDB9 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		5566DAA822971B8B00BFBDB9 /* AddDogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDogViewController.swift; sourceTree = "<group>"; };
 		55B5726C2296DB0F0061C939 /* RealmDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B5726F2296DB0F0061C939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55B572712296DB0F0061C939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 				5566DAA02296DDFE00BFBDB9 /* Dog.swift */,
 				5566DAA22296DFDB00BFBDB9 /* Person.swift */,
 				5566DAA42296FA6700BFBDB9 /* AddPersonViewController.swift */,
+				5566DAA6229714C200BFBDB9 /* PersonViewController.swift */,
+				5566DAA822971B8B00BFBDB9 /* AddDogViewController.swift */,
 			);
 			path = RealmDemo;
 			sourceTree = "<group>";
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				55B572722296DB0F0061C939 /* ViewController.swift in Sources */,
+				5566DAA922971B8B00BFBDB9 /* AddDogViewController.swift in Sources */,
+				5566DAA7229714C200BFBDB9 /* PersonViewController.swift in Sources */,
 				55B572702296DB0F0061C939 /* AppDelegate.swift in Sources */,
 				5566DAA32296DFDB00BFBDB9 /* Person.swift in Sources */,
 				5566DAA12296DDFE00BFBDB9 /* Dog.swift in Sources */,

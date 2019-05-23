@@ -42,6 +42,12 @@ class ViewController: UIViewController {
       if (identifier == "addPerson") {
         let dvc = segue.destination as! AddPersonViewController
         dvc.delegate = self
+      } else if (identifier == "showPerson") {
+        if let cell = sender as? UITableViewCell,
+          let indexPath = tableView.indexPath(for: cell),
+          let dvc = segue.destination as? PersonViewController {
+          dvc.person = self.people[indexPath.row]
+        }
       }
     }
   }

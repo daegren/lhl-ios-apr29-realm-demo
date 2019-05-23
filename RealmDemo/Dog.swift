@@ -11,6 +11,5 @@ import RealmSwift
 
 class Dog: Object {
   @objc dynamic var name = ""
-//  @objc dynamic var age = 0
-  let age = RealmOptional<Int>()
+  @objc dynamic var age = 0
 }
